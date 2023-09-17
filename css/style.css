@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding: 20px;
+    background-color: #e10600;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav img{
+    width: 15%;
+    transform: translateY(5px);
+}
+
+.hir{
+    transform: translateY(25%);
+    text-align: center;
+    color: white;
+}
+
+.wrapper{
+    position: relative;
+    width: 25%;
+}
+
+.caption{
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%; padding: 10px;
+    color: white;
+    background-color: #15151e;
+    
+}
+
+.caption{
+    display: none;
+}
+
+.wrapper:hover .caption{
+    display: block;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(25%);
+}
+
+.card img{
+    width: 80%;
+    margin: 15px;
+    border-radius: 13px;
+    border: solid white 3px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #e10600;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    font-weight: 900;
+    color: white;
+}
+
+body{
+    background-color: #15151e;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+a:hover{
+    color: #15151e;
+}
+
+span{
+    color: white;
+}
