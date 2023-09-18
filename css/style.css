@@ -17,45 +17,50 @@
 }
 
 .hir{
-    transform: translateY(25%);
+    transform: translateY(10%);
     text-align: center;
     color: white;
 }
 
 .wrapper{
-    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
     width: 25%;
+    background-color: #e10600;
+    padding: 15px;
+    box-shadow: white 10px 5px 5px;
+    margin-bottom: 20px;
+ 
 }
 
-.caption{
-    position: absolute;
-    bottom: 0; left: 0;
-    width: 100%; padding: 10px;
-    color: white;
-    background-color: #15151e;
+
     
-}
+
 
 .caption{
-    display: none;
+    width: 350px;
+    font-size: 10px;
+
 }
 
-.wrapper:hover .caption{
-    display: block;
-}
+
 
 .card{
     display: flex;
     align-items: center;
     justify-content: center;
     transform: translateY(25%);
+    gap: 50px;
 }
 
 .card img{
-    width: 80%;
+    width: 15vw;
     margin: 15px;
     border-radius: 13px;
     border: solid white 3px;
+    
  
 }
 
@@ -78,6 +83,7 @@
 body{
     background-color: #15151e;
     font-family: 'Ubuntu', sans-serif !important;
+    overflow: hidden;
   
 }
 
@@ -111,11 +117,18 @@ font-size: larger;
 
 }
 h3{
-    color: red;
+    color: white;
     font-size: larger;
 }
 
 h4{
     color: purple;
     font-size: larger;
+}
+
+#nigger{
+
+font-size: 9px;
+
+
 }
